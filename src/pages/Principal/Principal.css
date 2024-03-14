@@ -1,0 +1,33 @@
+.board{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.title{
+    margin: 12px;
+    padding: 13px;
+}
+
+.information{
+    margin: 12px;
+    padding: 13px;
+}
+.containerTI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board p{
+    padding: 1rem;
+}
+
