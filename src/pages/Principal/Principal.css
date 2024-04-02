@@ -31,3 +31,36 @@
     padding: 1rem;
 }
 
+.containerTitle {
+    border-bottom-style: outset;
+    margin: 15px;
+}
+
+.containerFiltrer p{
+    font-size: 40px;
+    margin-right: 35px;
+}
+
+select {
+    font-size: 25px;
+}
+
+.containerFiltrer{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.containerTasks {
+    background: #7d62e5;
+    width: 90%;
+    min-height: 33rem;
+    border-radius: 21px;
+    border: 10px solid;
+    border-color: #0e0e0e80;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}

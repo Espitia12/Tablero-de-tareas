@@ -15,7 +15,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  width: 100vw;
 
 }
 
@@ -30,7 +29,7 @@ a:hover {
 
 body {
   margin: 0;
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
 }
 

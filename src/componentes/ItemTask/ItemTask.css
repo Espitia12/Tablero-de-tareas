@@ -1,0 +1,47 @@
+.containerCard {
+    display: flex;
+    justify-content: center;
+    background: black;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+
+.state {
+    border-radius: 50px;
+    width: 44px;
+    background: red;
+    height: 40px;
+    margin: 5px;
+}
+
+.state2{
+    border-radius: 50px;
+    width: 44px;
+    background:green;
+    height: 40px;
+    margin: 5px;
+}
+
+.titleCard {
+    font-size: 25px;
+    margin: 5px;
+}
+.textCard {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.chek{
+    margin: 15px;
+    width: 30px;
+    border-radius: 50%; /* convierte el checkbox en un círculo */
+
+}
+
+.containergroup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+}

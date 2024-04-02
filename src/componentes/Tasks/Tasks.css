@@ -1,0 +1,22 @@
+ul {
+    overflow-y: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    min-height: 33rem;
+    max-height: 33rem;
+    margin: 5px 0 5px 0;
+}
+
+ul::-webkit-scrollbar {
+    height: 8px; /* Altura de la barra de desplazamiento */
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: #0e0e0e80; /* Color del thumb (la parte deslizante de la barra de desplazamiento) */
+    border-radius: 25px;
+     /* Borde redondeado del thumb */
+}
+
+ul::-webkit-scrollbar-track {
+
+}
