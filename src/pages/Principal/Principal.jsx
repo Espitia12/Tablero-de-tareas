@@ -13,6 +13,8 @@ import { tasksContext } from '../../componentes/Context/Context'
 
 export const Principal = () => {
 
+
+
   const context = useContext(tasksContext)
 
   const titleRef = useRef('')
@@ -20,15 +22,18 @@ export const Principal = () => {
 
   const counter = useRef(1)
   const transTasks = () =>{
+    const idTas = context.idTask 
     const title = titleRef.current.value
     const description = descripcionRef.current.value
     const id = counter.current++
-    setTask([...context.tasks,{title,description,id}])
+    const state = 'state'
+    context.setTask([...context.tasks,{ idTas,title,description,id,state}])
     titleRef.current.value=''
     descripcionRef.current.value=''
   }
 
   const chek = () =>{
+    const state = 'state'
 
 
   }
@@ -66,8 +71,10 @@ export const Principal = () => {
         <Tasks>
 
           {context.tasks.map(task => <ItemTask
+          idTask={task.idTask}
           title={task.title}
           text={task.description}
+          state={task.state}
           />)}
         </Tasks>
         </div>
