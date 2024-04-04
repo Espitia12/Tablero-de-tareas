@@ -22,12 +22,11 @@ export const Principal = () => {
 
   const counter = useRef(1)
   const transTasks = () =>{
-    const idTas = context.idTask 
     const title = titleRef.current.value
     const description = descripcionRef.current.value
     const id = counter.current++
     const state = 'state'
-    context.setTask([...context.tasks,{ idTas,title,description,id,state}])
+    context.setTask([...context.tasks,{idTask: id, title,description,id,state}])
     titleRef.current.value=''
     descripcionRef.current.value=''
   }
